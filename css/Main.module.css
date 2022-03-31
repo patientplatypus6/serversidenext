@@ -1,0 +1,47 @@
+.bloglistcontainer{
+  display: inline-block;
+  background: grey;
+  width: 20vw;
+  font-weight: 500;
+  font-size: 1.25rem;
+  /* font-family: 'Roboto Mono', monospace; */
+  /* min-height: 100vh;  */
+}
+
+.headercontainer{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.blogcontentcontainer{
+  display: block;
+  float: right;
+  text-align: center;
+  background: rgb(100, 73, 172);
+  width: 80vw;
+  min-height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bloglist{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid green;
+  background: rgba(0,0,0,0.5);
+  color: lightblue;
+  /* font-weight: bold; */
+  width: calc(100% - 34px);
+  cursor: pointer;
+}
+
+.blogitemselected{
+  color: red;
+}
+
+.blogitem{
+  transition: 1s;
+}
+
+.blogitem:hover{
+  color: lightgreen;
+}
