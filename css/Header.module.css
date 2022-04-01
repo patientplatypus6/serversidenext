@@ -19,9 +19,9 @@
     color: inherit;
 }
 
-.email{
+.linkcontainer{
     /* background: black; */
-    font-size: 2rem;
+    height: 100%;
     display: inline-block;
     cursor: pointer;
 }

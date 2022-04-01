@@ -1,4 +1,4 @@
-.bloglistcontainer{
+.listcontainer{
   display: inline-block;
   background: grey;
   width: 20vw;
@@ -8,18 +8,57 @@
   /* min-height: 100vh;  */
 }
 
+.listcontainerleft{
+  display: inline-block;
+  float: left;
+  background: grey;
+  width: 20vw;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.listcontainerright{
+  display: inline-block;
+  float: right;
+  background: grey;
+  width: 20vw;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
 .headercontainer{
   font-family: 'Press Start 2P', cursive;
 }
 
+.pagescontainer{
+  display: inline-block;
+  background: grey;
+  width: 20vw;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
 .blogcontentcontainer{
   display: block;
-  float: right;
+  float: left;
   text-align: center;
   background: rgb(100, 73, 172);
-  width: 80vw;
+  width: 60vw;
   min-height: 100vh;
   font-family: 'Roboto Mono', monospace;
+}
+
+.pagecontentcontainer{
+  display: block;
+  float: left;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  background: rgb(188, 212, 184);
+  width: calc(60vw - 20px);
+  min-height: 100vh;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-size: 1.25rem;
 }
 
 .bloglist{
@@ -29,9 +68,38 @@
   border: 2px solid green;
   background: rgba(0,0,0,0.5);
   color: lightblue;
-  /* font-weight: bold; */
   width: calc(100% - 34px);
   cursor: pointer;
+}
+
+.pagelist{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid green;
+  background: rgba(0,0,0,0.5);
+  color: lightblue;
+  width: calc(100% - 34px);
+  cursor: pointer;
+}
+
+.ulnostyle{
+  list-style-type: none;
+}
+
+.linostyle{
+
+}
+
+.mainpagecontainer{
+
+}
+
+.anchor{
+  color: lightgreen;
+  text-decoration: none;
+  background: rgba(0,0,0,0.8);
+  padding: 5px;
 }
 
 .blogitemselected{
@@ -45,3 +113,17 @@
 .blogitem:hover{
   color: lightgreen;
 }
+
+.pageitem{
+  color: lightblue;
+  cursor: pointer;
+}
+
+.pageitem{
+  transition: 1s;
+}
+
+.pageitem:hover{
+  color: rgb(20, 155, 20);
+}
+
