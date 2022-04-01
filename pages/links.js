@@ -20,7 +20,7 @@ export default function Links(){
         <BlogList/>
       </div>
       <div className={styles.pagecontentcontainer}>
-        This is the links page
+        I might put some links here as I come across useful resources. Stay tuned!
       </div>
       <div className={styles.listcontainerright}>
         <PageList/>

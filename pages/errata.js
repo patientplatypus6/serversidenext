@@ -19,7 +19,7 @@ export default function Errata(){
         <BlogList/>
       </div>
       <div className={styles.pagecontentcontainer}>
-        This is the errata page
+        I'll be updating this page with some errata that doesn't warrant it's own blogpost in the future!
       </div>
       <div className={styles.listcontainerright}>
         <PageList/>
